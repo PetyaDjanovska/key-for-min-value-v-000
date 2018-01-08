@@ -4,6 +4,10 @@
 def key_for_min_value(name_hash)
  name_hash.collect do |name, value|
    value
-   min_age = value.min
  end
+end
+
+
+def min_value(array)
+  array.min
 end
